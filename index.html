@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Nelson Ayna</title>
+
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+            background-size: 400% 400%;
+            animation: gradientBG 12s ease infinite;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 60px 80px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+            border: 2px solid #00d4ff;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .destacar {
+            color: #00d4ff;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: bold;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #00d4ff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .boton:hover {
+            background: white;
+            color: #000;
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #00d4ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>✨ Hola Mundo ✨</h1>
+        <p class="destacar">Soy Nelson Ayna</p>
+        <p>Este es mi Currículo Vitae profesional.</p>
+
+        <a href="hojadevida.html" class="boton">
+            Ver Hoja de Vida →
+        </a>
+    </div>
+
+</body>
+</html>
